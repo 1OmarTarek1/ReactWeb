@@ -1,0 +1,179 @@
+.box1-and-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.box1-and-2 .box-1 .card-wrapper-related-games{ /*Very Nice Thinking Omar ! */
+    height: 100px;
+    display: grid;
+    padding: 20px;
+    margin: 0px;
+    border-bottom: none;
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius-primary);
+}
+
+/* .box1-and-2 .box-1 .card-wrapper-related-games .related-games-item-content .img-txt{
+    align-items: flex-end;
+
+} */
+
+.box1-and-2 .box-1 .card-wrapper-related-games .related-games-item-content .img-txt .txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box1-and-2 .box-1 .card-wrapper-related-games .related-games-item-content .img-txt h5{
+    margin-bottom: 0px;
+}
+
+.box1-and-2 .box-1 .card-wrapper-related-games .related-games-item-image{ /*Very Nice Thinking Omar ! */
+    display: none;
+}
+.box-1{
+    width: 100%;
+}
+
+.box-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    width: 100%;
+    
+    background-color: var(--color-dark);
+    border-radius: var(--border-radius-primary);
+}
+
+
+.box-2  h6{
+    font-size: 14px;
+    margin-top: 10px;
+    
+}
+
+
+.box-2 div:first-child span:first-child{
+    color: var(--color-icons);
+}
+
+.box-2 .icon{
+    color: var(--color-primary);
+    font-size: 15px;
+}
+
+
+
+.three-imgs{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 40px 0px;
+}
+
+.img-div{
+    width: 100%;
+}
+
+.img-div img{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    margin-bottom: 30px;
+    font-size: 15.5px;
+    color: var(--color-light-dark);
+}
+
+p a{
+    color: var(--color-light);
+    opacity: .9;
+    transition: all .3s;
+}
+p a:hover{
+    color: var(--color-primary);
+}
+
+
+
+.c-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px){
+
+    .box1-and-2{
+        flex-direction: column;
+    }
+
+    .three-imgs{
+        flex-direction: column;
+    }
+
+    .box-1 {
+        font-size: 10px;
+    }
+    .box-2{
+        gap: 15px;
+    }
+    
+    .box-2 .icon{
+        font-size: 13px;
+    }
+
+    .box-2 h6{
+        font-size: 13px;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    }
+    
+
+    @media screen and (max-width: 400px) {
+        .box-1 .related-games-item-title{
+            font-size: 10px;
+            line-height: 1.2rem;
+        }
+        .box-1 .sml-fnt{
+            font-size: 9px;
+        }
+        .box-1 ul{
+            font-size: 10px;
+        }
+
+        .box-2{
+            /* flex-direction: column; */
+            gap: 5px;
+        }
+        .box-2 .txt-icons .icon,
+        .box-2 .txt-icons h6
+        {
+            font-size: 9px;
+        }
+
+        .c-btn div a{
+            padding: 10px 12px;
+            font-size: 9px;
+        }
+    }
+
+    
+
+    

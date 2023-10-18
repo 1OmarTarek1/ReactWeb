@@ -1,0 +1,14 @@
+footer p{
+    margin-top: var(--margin-primary);
+    color: var(--color-light);
+    text-align: center;
+    line-height: 2rem;
+    font-size: 15px;
+
+}
+
+footer p a{
+    color: var(--color-primary);
+    transition: all .3s;
+}
+

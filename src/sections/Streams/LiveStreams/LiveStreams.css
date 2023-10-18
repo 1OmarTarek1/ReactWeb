@@ -1,0 +1,84 @@
+.FeaturedGames-page .section-wrapper{
+    height: fit-content;
+}
+
+
+.FeaturedGames-page .FeaturedGames-items{
+    display: flex;
+    gap: 30px;
+
+}
+
+.FeaturedGames-page .section-header h4{
+    margin-bottom: 0px;
+}
+
+.FeaturedGames-items .card-wrapper-related-games{
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+
+.FeaturedGames-page .FeaturedGames-items .related-games-item-image{
+    width: 100%;
+    height: 100%;
+}
+.FeaturedGames-page .FeaturedGames-items .hoverDiv-and-img{
+    position: relative;
+    overflow: hidden;
+}
+.FeaturedGames-page .FeaturedGames-items .hoverDiv-and-img::before{
+    content: "2.4K Streaming";
+    width: 80%;
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 0px;
+    border-radius: var(--border-radius-primary);
+    text-align: center;
+    font-size: 14px;
+    font-weight: var(--font-weight-normal);
+    color: var(--color-primary);
+    background-color: var(--color-darkest);
+    opacity: .9;
+    cursor: pointer;
+    transition: .3s;
+}
+.FeaturedGames-page .FeaturedGames-items .hoverDiv-and-img:hover::before  {
+    bottom: 15px;
+}
+
+
+
+.FeaturedGames-page .FeaturedGames-items .img-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.FeaturedGames-page .FeaturedGames-items .txt-icns{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width:767px){
+
+    .FeaturedGames-page .related-title{
+        flex-direction: row;
+        font-size: 25px;
+    }
+
+
+
+}
+
+@media screen and (max-width:494px){
+
+    .FeaturedGames-page .related-title{
+        flex-direction: row;
+        font-size: 25px;
+    }
+
+}

@@ -1,0 +1,45 @@
+.DownloadedGames-page .related-title{
+    display: flex;
+    flex-direction:column;
+}
+
+.DownloadedGames-page .section-header h4{
+    margin-bottom: 0;
+}
+
+.DownloadedGames-page .download-games-items{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 380px;
+    overflow-y: scroll;
+    padding: 0px;
+}
+.DownloadedGames-page .download-games-items::-webkit-scrollbar{
+    width: 0;
+}
+
+
+
+.DownloadedGames-page .view-all-games{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: -20px;
+    color: var(--color-primary);
+    font-weight: var(--font-weight-normal);
+}
+
+
+
+
+@media screen and (max-width:992px){
+    .DownloadedGames-page .related-title{ 
+        flex-direction:row;
+        gap: 5px;
+        margin-bottom: 10px;
+        font-size: 25px; 
+        
+    }
+}
+

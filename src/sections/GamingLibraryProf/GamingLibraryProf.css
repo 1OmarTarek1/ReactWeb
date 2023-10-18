@@ -1,0 +1,22 @@
+.gaming-library-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 80px;
+    height: 75px;
+    border-radius: var(--border-radius-primary);
+}
+
+
+
+@media screen and (max-width:767px) {
+    .gaming-profile-title{
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+        font-size: 25px;
+    }
+}
+

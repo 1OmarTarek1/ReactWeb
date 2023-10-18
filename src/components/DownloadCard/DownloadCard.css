@@ -1,0 +1,205 @@
+
+.download-games-item .card-wrapper-related-games{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0px;
+    position: relative;
+    border-bottom: 1px solid var(--color-dark);
+    background-color: var(--color-darkest);
+    border-radius: 0px;
+    margin: 0px;
+    transition: .4s ;
+}
+
+.download-games-item .card-wrapper-related-games:hover{
+    border-color: var(--color-primary);
+}
+
+
+
+.download-games-item  .related-games-item-content{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.download-games-item  .txt{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.download-games-item  .sml-fnt{
+    color: var(--color-light-dark);
+    font-size: 14px;
+    margin: 5px 0px;
+}
+
+.download-games-item  .related-games-item-title{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.download-games-item  .all-content{
+    display: flex;
+    flex-direction: column;
+    margin: 3px 0 0 0 ;
+    padding: 0;
+}
+
+.download-games-item  .all-content li{
+    padding: 0;
+    margin: 0;
+}
+
+.download-games-item  .icns-pos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;    
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+.download-games-item  .icns-pos li{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+
+.download-games-item .btn-edit-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.download-games-item .btn-edit-5 .primary-button .pri-btn{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+}
+.download-games-item .btn-edit-5 .primary-button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    padding: 0;
+    margin: 0;
+}
+
+.download-games-item .btn-edit-5 .primary-button a svg{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px){
+    .download-games-item .card-wrapper-related-games{
+        justify-content: space-between;
+    }
+
+    .download-games-item .btn-edit-5 .primary-button a{
+        width: 50px;
+        height: 50px;
+
+    }
+}
+
+
+@media screen and (max-width:414px){
+
+    .download-games-item .btn-edit-5 .primary-button a{
+        width: 35px;
+        height: 35px;
+
+    }
+
+    }
+    
+
+
+     @media screen and (max-width: 400px) {
+
+       
+        .related-games-item-image{
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+        }
+
+        .related-games-item-title{
+            font-size: 12px;
+            margin-bottom: 0px;
+            line-height: 1.2px;
+        }
+        .sml-fnt{
+            font-size: 10px;
+        }
+
+        ul li  {
+            text-align: start;
+            font-size: 10px;
+        }
+
+    }
+
+    @media screen and (max-width: 345px) {
+        .download-games-item .card-wrapper-related-games{
+            justify-content: center;
+            gap: 5px;
+        }
+
+        .download-games-item .related-games-item-content{
+            align-items: center;
+        }
+
+        .download-games-item .related-games-item-image{
+            width: 45px;
+            height: 45px;
+            border-radius: 5px;
+        }
+
+        .download-games-item .related-games-item-title{
+            font-size: 12px;
+            margin-bottom: 0px;
+            line-height: 1.2px;
+        }
+
+       .download-games-item  .sml-fnt{
+            font-size: 10px;
+        }
+
+       .download-games-item ul li  {
+            text-align: start;
+            font-size: 10px;
+        }
+
+        .download-games-item .card-wrapper-related-games ul li .icns-pos li{
+            flex-direction: column;
+            text-align: center;
+        }
+
+       
+
+
+    }

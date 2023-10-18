@@ -1,0 +1,26 @@
+
+.related-games-items{
+    display: grid;
+    grid-template-columns: 48.5% 48.5%;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:767px){
+
+    .related-games-items{
+
+        grid-template-columns: 100%;
+    }
+    .related-title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 5px;
+        font-size: 20px;
+    }
+
+}
+
+

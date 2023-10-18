@@ -1,0 +1,139 @@
+.button a{
+    font-size: 14px;
+    color: var(--color-light);
+    border-radius: var(--border-radius-primary);
+    padding: 12px 30px;
+    letter-spacing: .5px;
+    font-weight: 400;
+    transition: all .3s;
+}
+.button a:hover{
+    color: var(--color-primary);
+}
+
+.primary-button .pri-btn{
+    background-color: var(--color-primary);
+    font-size: 14px;
+    color: var(--color-light);
+    border-radius: var(--border-radius-primary);
+    padding: 12px 30px;
+    letter-spacing: .5px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.primary-button .pri-btn:hover{
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+
+.primary-button .pri-btn a:hover{
+    color: var(--color-primary);
+}
+
+
+.primary-button-centered{
+    position: relative;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+    transition: .3s;
+}
+.primary-button-centered .btn-pri-center{
+    font-size: 14px;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    border-radius: var(--border-radius-primary);
+    padding: 12px 30px;
+    letter-spacing: .5px;
+    font-weight: 400;
+    transition: all .3s;
+    cursor: pointer;
+}
+.primary-button-centered .btn-pri-center:hover{
+    background-color: var(--color-light);
+    color: var(--color-primary);
+}
+
+
+.secondary-button a{
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+
+.secondary-button a:hover{
+    border: 1px solid var(--color-light);
+    background-color: var(--color-light);
+}
+
+
+
+
+
+
+
+
+.button .spanName{
+    font-size: 14px;
+    color: var(--color-light);
+    border-radius: var(--border-radius-primary);
+    letter-spacing: .5px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all .3s;
+}
+/* .button .spanName a{
+
+} */
+/* .secondary-button .spanName{
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+}
+.secondary-button .spanName:hover{
+    border: 1px solid var(--color-light);
+    background-color: var(--color-light);
+} */
+
+
+
+
+
+
+
+
+
+.profile-style-download a{
+    border-color:var(--color-light-dark) ;
+    color: var(--color-light-dark);
+}
+.profile-style-download a:hover{
+    background-color: var(--color-darkest);
+    border-color:var(--color-light-dark) ;
+    
+}
+
+
+
+
+@media screen and (max-width:992px) {
+    .center-download-btn{
+        display: flex;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--color-darkest); 
+    }
+}
+
+@media screen and (max-width:767px) {
+    .center-download-btn{
+        display: flex;
+        position: relative;
+        left: 5%;
+        transform: translateX(0%);
+        background-color: var(--color-darkest); 
+    }
+    
+}

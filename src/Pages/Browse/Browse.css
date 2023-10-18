@@ -1,0 +1,16 @@
+.featuredGames-and-downloadedGames{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 30px;   
+}
+
+
+
+
+
+@media screen and (max-width:992px){
+    .featuredGames-and-downloadedGames{
+        flex-direction: column  ;
+    }     
+}

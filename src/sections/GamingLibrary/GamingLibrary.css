@@ -1,0 +1,46 @@
+.gaming-library-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 80px;
+    height: 75px;
+    border-radius: var(--border-radius-primary);
+}
+
+
+@media screen and (max-width:767px) {
+    
+    .media-gm-title div h4{
+        text-align: center;
+        font-size: 25px;
+    }
+
+}
+
+
+@media screen and (max-width:575px) {
+    
+    .media-gm-title div h4{
+        text-align: center;
+        font-size: 25px;
+    }
+
+}
+
+
+@media screen and (max-width:360px) {
+    
+    .section-media .section-wrapper{
+        padding: calc( var(--padding-primary) - 15px );
+    }
+
+    .media-gm-title div h4{
+        text-align: center;
+        font-size: 20px;
+    }
+
+}
+
+

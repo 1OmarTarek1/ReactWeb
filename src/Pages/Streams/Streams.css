@@ -1,0 +1,16 @@
+.Streams-and-Streamers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    gap: 30px;   
+}
+
+
+
+
+
+@media screen and (max-width:992px){
+    .Streams-and-Streamers{
+        flex-direction: column  ;
+    }     
+}

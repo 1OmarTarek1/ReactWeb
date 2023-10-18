@@ -1,0 +1,15 @@
+.this-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+@media screen and (max-width:767px){
+    .media-title div h4{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
