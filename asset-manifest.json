@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ReactWeb/static/css/main.82b3d689.css",
-    "main.js": "/ReactWeb/static/js/main.1c3a6c05.js",
+    "main.js": "/ReactWeb/static/js/main.725a99e0.js",
     "static/media/Pubg-03.jpg": "/ReactWeb/static/media/Pubg-03.a70a35ab057d196f6177.jpg",
     "static/media/Pubg-01.jpg": "/ReactWeb/static/media/Pubg-01.adb5d221d20c817ac4ec.jpg",
     "static/media/featured-01.jpg": "/ReactWeb/static/media/featured-01.8a6d341f27b807c01278.jpg",
@@ -20,7 +20,6 @@
     "static/media/pubg-right.jpg": "/ReactWeb/static/media/pubg-right.11ef12d43ad3f23ad8f9.jpg",
     "static/media/game-01.jpg": "/ReactWeb/static/media/game-01.3774df1e443863b325a5.jpg",
     "static/media/popular-03.jpg": "/ReactWeb/static/media/popular-03.cd95f5d6eebd87ce9fc3.jpg",
-    "static/media/downloaded-03.jpg": "/ReactWeb/static/media/downloaded-03.e42047d7cd1a10fc0611.jpg",
     "static/media/featured-03.jpg": "/ReactWeb/static/media/featured-03.5f24080e47db7bf486a4.jpg",
     "static/media/popular-02.jpg": "/ReactWeb/static/media/popular-02.933b572df2741fc01f7f.jpg",
     "static/media/popular-01.jpg": "/ReactWeb/static/media/popular-01.d826bb5723607af780fb.jpg",
@@ -39,6 +38,7 @@
     "static/media/stream-05.jpg": "/ReactWeb/static/media/stream-05.876fc417b9c5abf7688e.jpg",
     "static/media/feature-left.jpg": "/ReactWeb/static/media/feature-left.2e7e18e857172344a46d.jpg",
     "static/media/featured-06.jpg": "/ReactWeb/static/media/featured-06.8ce3322aaee612028616.jpg",
+    "static/media/fifa23.jpg": "/ReactWeb/static/media/fifa23.8b028837423f4213d34a.jpg",
     "static/media/popular-06.jpg": "/ReactWeb/static/media/popular-06.8b028837423f4213d34a.jpg",
     "static/media/Pubg-02.jpg": "/ReactWeb/static/media/Pubg-02.381c70a98ce5161d3528.jpg",
     "static/media/clip-04.jpg": "/ReactWeb/static/media/clip-04.aa0c0464bae8610c5a5e.jpg",
@@ -57,10 +57,10 @@
     "static/media/stream-01.jpg": "/ReactWeb/static/media/stream-01.36584b59614930e69acd.jpg",
     "index.html": "/ReactWeb/index.html",
     "main.82b3d689.css.map": "/ReactWeb/static/css/main.82b3d689.css.map",
-    "main.1c3a6c05.js.map": "/ReactWeb/static/js/main.1c3a6c05.js.map"
+    "main.725a99e0.js.map": "/ReactWeb/static/js/main.725a99e0.js.map"
   },
   "entrypoints": [
     "static/css/main.82b3d689.css",
-    "static/js/main.1c3a6c05.js"
+    "static/js/main.725a99e0.js"
   ]
 }
