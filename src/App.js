@@ -24,13 +24,6 @@ import { Container, UpButton }                                              from
 
 const App = () => {
 
-    //u can replace Link to a this will answer this problem
-    //============================================================//
-
-    //== TRY TO MAKE SCROLL TOP 0 WHEN U CLICK TO LINKS !!!!!!! ==//
-
-    //============================================================//
-
     return(
         
         <>
