@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ReactWeb/static/css/main.cd9c3267.css",
-    "main.js": "/ReactWeb/static/js/main.0b6ca1c6.js",
+    "main.css": "/ReactWeb/static/css/main.4d0d5410.css",
+    "main.js": "/ReactWeb/static/js/main.2ce095dc.js",
     "static/media/Pubg-03.jpg": "/ReactWeb/static/media/Pubg-03.a70a35ab057d196f6177.jpg",
     "static/media/Pubg-01.jpg": "/ReactWeb/static/media/Pubg-01.adb5d221d20c817ac4ec.jpg",
     "static/media/featured-01.jpg": "/ReactWeb/static/media/featured-01.8a6d341f27b807c01278.jpg",
@@ -56,11 +56,11 @@
     "static/media/stream-04.jpg": "/ReactWeb/static/media/stream-04.2df8532eaa2c5d338af1.jpg",
     "static/media/stream-01.jpg": "/ReactWeb/static/media/stream-01.36584b59614930e69acd.jpg",
     "index.html": "/ReactWeb/index.html",
-    "main.cd9c3267.css.map": "/ReactWeb/static/css/main.cd9c3267.css.map",
-    "main.0b6ca1c6.js.map": "/ReactWeb/static/js/main.0b6ca1c6.js.map"
+    "main.4d0d5410.css.map": "/ReactWeb/static/css/main.4d0d5410.css.map",
+    "main.2ce095dc.js.map": "/ReactWeb/static/js/main.2ce095dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd9c3267.css",
-    "static/js/main.0b6ca1c6.js"
+    "static/css/main.4d0d5410.css",
+    "static/js/main.2ce095dc.js"
   ]
 }
