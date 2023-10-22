@@ -38,7 +38,7 @@ const UpButton = () =>{
         <button 
         className  =  'arrow-btn' 
         onClick    =  {scrollToTop} 
-        style      =  {{opacity: visible ? '.5' : '0'}}>
+        style      =  {{opacity: visible ? '.7' : '0'}}>
 
             <FaCaretUp />
         </button>
